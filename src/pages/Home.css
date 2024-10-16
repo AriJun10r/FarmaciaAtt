@@ -1,0 +1,87 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ef97a4;
+    margin: 0;
+
+}
+
+/* Container principal */
+.Home-container {
+    
+    margin: 0 auto;
+    padding: 30px; /* Aumenta o padding interno */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Subcontainer */
+.home-subcontainer {
+    text-align: center;
+}
+
+/* Imagem principal */
+.imgprincipal {
+    width: 100%;
+    max-width: 800px; /* Aumenta a largura máxima da imagem */
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Lista de senhas */
+.list {
+    margin-top: 20px;
+}
+
+/* Botões */
+.home-senha-button {
+    padding: 15px 25px; /* Aumenta o padding dos botões */
+    background-color: #ef97a4; /* Azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    margin: 10px;
+    transition: background 0.3s;
+}
+
+.home-senha-button:hover {
+    background-color: #ee6e81; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Estilo para o título das senhas geradas */
+.h2Senhageradas {
+    margin-top: 20px;
+    font-size: 28px; /* Aumenta o tamanho do título */
+    color: #333;
+}
+
+/* Lista de senhas geradas */
+.ul-list {
+    list-style-type: none; /* Remove marcadores */
+    padding: 0;
+    margin: 20px 0; /* Margem entre a lista e outros elementos */
+    border: 1px solid #ccc; /* Borda da lista */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #fafafa; /* Fundo claro para a lista */
+    max-height: 400px; /* Aumenta a altura máxima da lista */
+    overflow-y: auto; /* Adiciona rolagem se exceder a altura */
+}
+
+.ul-list li {
+    background: #eaeaea; /* Fundo dos itens da lista */
+    padding: 12px; /* Aumenta o padding dos itens da lista */
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    display: flex; /* Permite alinhar o texto */
+    justify-content: space-between; /* Espaço entre texto e possíveis ícones */
+}
+
+/* Estilo do footer */
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}

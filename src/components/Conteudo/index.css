@@ -1,0 +1,11 @@
+.conteudo-container{
+    background-color: #e7dee0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vh;
+
+
+}
+
